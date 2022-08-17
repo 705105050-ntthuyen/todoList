@@ -14,8 +14,6 @@ function App() {
   }
 
   function handleData(newData, type) {
-    //6 hứng data từ form
-    //7 set lại data mới
     setData([...data, newData]);
     if (type) {
       const newDataResult = [];
@@ -70,3 +68,5 @@ function App() {
 }
 
 export default App;
+
+//huyenhuyen
